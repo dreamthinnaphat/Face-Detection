@@ -3,7 +3,7 @@ import cv2
 
 video_capture = cv2.VideoCapture(0)
 
-person1_image = face_recognition.load_image_file("fent.jpg")
+person1_image = face_recognition.load_image_file("dream.jpg")
 person1_face_encoding = face_recognition.face_encodings(person1_image)[0]
 
 known_face_encodings = [
@@ -11,7 +11,7 @@ known_face_encodings = [
 ]
 
 known_face_names = [
-    "Surakit",
+    "Thinnaphat",
     "Stop"
 ]
 
